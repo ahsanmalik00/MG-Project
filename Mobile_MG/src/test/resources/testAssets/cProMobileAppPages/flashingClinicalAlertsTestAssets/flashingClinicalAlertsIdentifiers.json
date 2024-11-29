@@ -1,0 +1,12 @@
+{
+  "FlashingAlertTitle": "tvTitle",
+  "openBtn": "btnDismiss",
+  "pdfView": "pdfIV",
+  "MarkCompleteBtn": "btnMarkAsRead",
+  "AlertLevelTxt": "txtStatusLevel",
+  "AlertBellIcon": "ivHome",
+  "NoHighRiskPatientTxt": "txt_no_data_available",
+  "viewAllPatientBtn": "recyclerViewDashboard",
+  "ResidentNameTxt": "name",
+  "flashingClinicalAlertCard": "cardFallAlert"
+}

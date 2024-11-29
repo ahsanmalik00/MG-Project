@@ -1,0 +1,10 @@
+{
+  "dailyReportsTab": "linReports",
+  "dailyReportsRowItem": "ll_report",
+  "dailyReportsPdfView": "pdfView",
+  "floorsDialogRoom": "tvFloorName",
+  "settingsFloorsRow": "relFloor",
+  "floorsDialogCancelButton": "tvCancel",
+  "dailyReportRowItemsRoomName": "name",
+  "dailyReportRowItemsDate": "date"
+}

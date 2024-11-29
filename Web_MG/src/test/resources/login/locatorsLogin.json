@@ -1,0 +1,5 @@
+{
+  "sign_in": "//body/div/div/div/div/div/div/div[1]/button[1]",
+  "phone_1": "input[placeholder='3']"
+}
+

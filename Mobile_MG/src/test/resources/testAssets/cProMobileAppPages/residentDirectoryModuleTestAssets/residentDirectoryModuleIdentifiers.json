@@ -1,0 +1,11 @@
+{
+  "LinResidentLL": "LinResident",
+  "nameTV": "name",
+  "layoutSettingsBTN": "linSettings",
+  "SettingsPageTVTitle": "tvTitle",
+  "residentDirectorySearchRoom": "roomName",
+  "ETSearchBedExit": "ETSearchBedExit",
+  "tvTitleHeader": "tvTitle",
+  "columnRoom": "resDirectoryRoom",
+  "columnName": "resDirectoryName"
+}

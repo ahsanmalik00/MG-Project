@@ -1,0 +1,58 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+<!--<suite name="CrossBrowserSuite" parallel="tests" >-->
+<!--    &lt;!&ndash; Test for Chrome browser &ndash;&gt;-->
+<!--    <test name="ChromeTest">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="CrossBrowserTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; Test for Firefox browser &ndash;&gt;-->
+<!--    <test name="FirefoxTest">-->
+<!--        <parameter name="browser" value="firefox" />-->
+<!--        <classes>-->
+<!--            <class name="CrossBrowserTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelExecutionSuite" parallel="tests" thread-count="2">
+
+    <test name="Test1">
+        <classes>
+            <class name="MG_Objects" />
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="DemoQATestCase" />
+        </classes>
+    </test>
+
+
+</suite>
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+
+<!--        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+
+<!--<suite name="CrossBrowserSuite">-->
+
+<!--<test name="Test on Chrome">-->
+<!--    <parameter name="browser" value="chrome" />-->
+<!--    <classes>-->
+<!--        <class name="DemoQATestCase" />-->
+<!--    </classes>-->
+<!--</test>-->
+
+<!--<test name="Test on Firefox">-->
+<!--    <parameter name="browser" value="firefox" />-->
+<!--    <classes>-->
+<!--        <class name="DemoQATestCase" />-->
+<!--    </classes>-->
+<!--</test>-->
+
+<!--</suite>-->

@@ -1,0 +1,5 @@
+{
+"emailTxtBoxWebPortal": "email",
+"passwordTxtBoxWebPortal": "password",
+"LoginBtnWebPortal": "button[type='submit']"
+}

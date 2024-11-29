@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="org.circadia.testHelpers.listeners.Listeners"/>
+        <listener class-name="org.circadia.testHelpers.listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test thread-count="5" name="LoginModuleCredentialsTestCases">
+        <classes>
+            <class name="org.circadia.testCases.loginModule.LoginModuleCredentialsTests"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="LoginModulePinScreenTestCases">
+        <classes>
+            <class name="org.circadia.testCases.loginModule.LoginModulePinScreenTests"/>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="LoginModuleInternetConnectionTestCases">
+        <classes>
+            <class name="org.circadia.testCases.loginModule.LoginModuleInternetConnectionTests"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="LoginModuleTapFiveTimeTestCases">
+        <classes>
+            <class name="org.circadia.testCases.loginModule.LoginModuleTapFiveTimeTests"/>
+        </classes>
+    </test>
+
+</suite>

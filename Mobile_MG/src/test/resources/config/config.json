@@ -1,0 +1,13 @@
+{
+  "app_package": "com.merigari.customer",
+  "app_activity": "com.merigari.custumer.ui.activity.SplashActivity",
+  "platform_name": "android",
+  "android_version": "14",
+  "appium_url": "127.0.0.1",
+  "browser_chrome": "chrome",
+  "web_portal_url": "http://d3.circadia.link",
+  "avd_name": "emulator-5554",
+  "device_name": "IphoneX",
+  "apk_name": "mg.apk",
+  "apk_version": "1.8.1 (157) d"
+}

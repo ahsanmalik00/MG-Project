@@ -1,0 +1,41 @@
+package org.circadia.pageObjects.MGMobileAppPages.loginModule;
+
+import static org.circadia.generalizedOperations.configloader.JsonUtils.getValue;
+import static org.circadia.generalizedOperations.constants.FrameworkPathConstants.LOGIN_IDENTIFIERS_PATH;
+public class LoginModuleIdentifiers {
+    public static final String EmailTxtBox = getValue("EmailTxtBox", LOGIN_IDENTIFIERS_PATH);
+    public static final String LoginBtn = getValue("LoginBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String TitleTV = getValue("TitleTV", LOGIN_IDENTIFIERS_PATH);
+    public static final String passwordTxtBox = getValue("passwordTxtBox", LOGIN_IDENTIFIERS_PATH);
+    public static final String ForgottenPasswordTV = getValue("ForgottenPasswordTV", LOGIN_IDENTIFIERS_PATH);
+    public static final String NotYouBtn = getValue("NotYouBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String OKBtn = getValue("OKBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String ToastMsg = getValue("ToastMsg", LOGIN_IDENTIFIERS_PATH);
+    public static final String heading = getValue("heading", LOGIN_IDENTIFIERS_PATH);
+    public static final String PinTitleTV = getValue("PinTitleTV", LOGIN_IDENTIFIERS_PATH);
+    public static final String TxtPinEntry = getValue("TxtPinEntry", LOGIN_IDENTIFIERS_PATH);
+    public static final String CancelBtn = getValue("CancelBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String circadiaLogo = getValue("circadiaLogo", LOGIN_IDENTIFIERS_PATH);
+    public static final String TitleTVResetPasswordTV = getValue("TitleTVResetPasswordTV", LOGIN_IDENTIFIERS_PATH);
+    public static final String CodeET = getValue("CodeET", LOGIN_IDENTIFIERS_PATH);
+    public static final String PasswordET = getValue("PasswordET", LOGIN_IDENTIFIERS_PATH);
+    public static final String ConfirmPasswordET = getValue("ConfirmPasswordET", LOGIN_IDENTIFIERS_PATH);
+    public static final String CancelBtn2 = getValue("CancelBtn2", LOGIN_IDENTIFIERS_PATH);
+    public static final String OKBtn2 = getValue("OKBtn2", LOGIN_IDENTIFIERS_PATH);
+    public static final String showPasswordIconBtn = getValue("showPasswordIconBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String DialogHeadingTV = getValue("DialogHeadingTV", LOGIN_IDENTIFIERS_PATH);
+    public static final String tap_to_unlock_btn = getValue("tap_to_unlock_btn", LOGIN_IDENTIFIERS_PATH);
+    public static final String etPinOne = getValue("etPinOne", LOGIN_IDENTIFIERS_PATH);
+    public static final String etPinTwo = getValue("etPinTwo", LOGIN_IDENTIFIERS_PATH);
+    public static final String etPinThree = getValue("etPinThree", LOGIN_IDENTIFIERS_PATH);
+    public static final String etPinFour = getValue("etPinFour", LOGIN_IDENTIFIERS_PATH);
+    public static final String lockScreenAlertLayout = getValue("lockScreenAlertLayout", LOGIN_IDENTIFIERS_PATH);
+    public static final String wifiIcon = getValue("wifiIcon", LOGIN_IDENTIFIERS_PATH);
+    public static final String connectionIssueTxt = getValue("connectionIssueTxt", LOGIN_IDENTIFIERS_PATH);
+    public static final String tryAgainBtn = getValue("tryAgainBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String forgotPinBtn = getValue("forgotPinBtn", LOGIN_IDENTIFIERS_PATH);
+    public static final String OKBtnForgotPin = getValue("OKBtnForgotPin", LOGIN_IDENTIFIERS_PATH);
+    public static final String contactSupportTitle = getValue("contactSupportTitle", LOGIN_IDENTIFIERS_PATH);
+    public static final String supportContactDetails = getValue("supportContactDetails", LOGIN_IDENTIFIERS_PATH);
+    public static final String dialogueBoxDescription = getValue("dialogueBoxDescription", LOGIN_IDENTIFIERS_PATH);
+}

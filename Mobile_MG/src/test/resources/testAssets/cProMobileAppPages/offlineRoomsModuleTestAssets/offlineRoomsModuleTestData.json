@@ -1,0 +1,17 @@
+{
+  "ROOM": "Room",
+  "DEVICE_ID": "Device ID",
+  "NAME": "Name",
+  "NO_OFFLINE_DEVICES_MSG": "No offline devices found",
+  "FIRST_RESIDENT_ROOM": "34A",
+  "SECOND_RESIDENT_ROOM": "34B",
+  "THIRD_RESIDENT_ROOM": "35A",
+  "FOURTH_RESIDENT_ROOM": "36A",
+  "FIFTH_RESIDENT_ROOM": "36B",
+  "SIXTH_RESIDENT_ROOM": "37A",
+  "SEVENTH_RESIDENT_ROOM": "39B",
+  "RESIDENT_ASSIGNED_NAME": "Assigned, UmairKhan",
+  "RESIDENT_UNASSIGNED_NAME": "Irshad, Umair-unassign",
+  "RESIDENT_DENIED_NAME": "Denied123, Denied",
+  "UN_ASSIGNED_ROOM": "70A"
+}

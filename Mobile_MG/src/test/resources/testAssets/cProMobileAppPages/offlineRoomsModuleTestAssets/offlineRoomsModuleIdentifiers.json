@@ -1,0 +1,12 @@
+{
+  "BtnOfflineDevicesTab": "linOfflineDevices",
+  "roomTV": "roomName",
+  "deviceIdTV": "deviceID",
+  "nameTV": "name",
+  "layoutSettingsBTN": "linSettings",
+  "SettingsPageTVTitle": "tvTitle",
+  "roomNameItemTV": "roomNameItem",
+  "nameItem":"nameItem",
+  "topEmptyLine":  "topEmptyLine",
+  "deviceIDItem": "deviceIDItem"
+}
